@@ -31,6 +31,7 @@
 
 <h1 style="font-family:verdana">Latest article</h1>
 {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 style="font-family:verdana">
             {{ post.title }}
         </h2>
