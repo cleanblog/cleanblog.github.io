@@ -1,2 +1,8 @@
+# side settings
 title: Clean Blog
+nav:
+- name: Home
+  link: /
+- name: About
+  link: /about
 theme: jekyll-theme-cayman
