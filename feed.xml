@@ -6,8 +6,9 @@ layout: null
   <channel>
         {% for post in site.posts limit:6 %}
         <item>
-        {% include kanbanniang.html %}
+        {% for kanbanniang in includes.kanbanniang %}
         <category>{{ kanbanniang | xml_escape }}</category>
+        {% endfor %}
       </item>
     {% endfor %}
   </channel>
