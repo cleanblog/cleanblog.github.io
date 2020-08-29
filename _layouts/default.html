@@ -119,7 +119,7 @@ body {
 	<h1 style="font-family:verdana">Latest article</h1>
   <div class="main">
 {% for post in site.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl }}" style="color:grey;text-decoration:none;">
         <h2 style="font-family:verdana">
             {{ post.title }}
         </h2>
