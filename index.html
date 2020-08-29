@@ -7,8 +7,3 @@ layout: default
         <h2 style="font-family:verdana">
             {{ post.title }}
         </h2>
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% endif %}
