@@ -9,7 +9,7 @@
 {% include navbar.html %}
 <div class="row">
   <div class="side">
-	<h1 style="font-family:verdana">Latest article</h1>
+	<h1 style="font-family:verdana">{{ site.hometitle }}</h1>
   <div class="main">
 {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" style="color:grey;text-decoration:none;">
