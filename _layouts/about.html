@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Article</title>
+<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="default.css">
+    </head>
+<body>
+
+<div class="header">
+  <h1>Clean Blog</h1>
+  <h3>Article</h3>
+    </div>
+
+<div class="navbar">
+<nav>
+  {% for item in site.nav %}
+    <a class="button" href="{{ item.link }}" 
+      {% if page.url == item.link %} style="color: white;text-decoration:none;" {% endif %}
+    >
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+      <p>{{ content }}</p>
+</div>
+      {% include footer.html %}
+</div>
