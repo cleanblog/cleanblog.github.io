@@ -22,7 +22,7 @@
 <nav>
   {% for item in site.nav %}
     <a class="button" href="{{ item.link }}" 
-      {% if page.url == item.link %} style="color: black;" {% endif %}
+      {% if page.url == item.link %} style="color: white;text-decoration:none;" {% endif %}
     >
       {{ item.name }}
     </a>
