@@ -1,6 +1,8 @@
 # side settings
 title: Clean Blog
 url: "https://crqblog.github.io"
+## 看版娘
+kanbanniang: true
 ## nav
 nav:
 - name: Home
