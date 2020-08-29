@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About|{{ site.title }}</title>
+<title>About | {{ site.title }}</title>
 <body>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -118,7 +118,7 @@ body {
   <div class="side">
   <div class="main">
 <h1>关于我们</h1>
-{% for post in site.posts.about.about.md %}
+{% for post in site.posts.about.about %}
       <p>{{ content }}</p>
       {% endfor %}
 </div>
