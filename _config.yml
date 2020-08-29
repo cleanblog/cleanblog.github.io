@@ -2,11 +2,11 @@
 title: Clean Blog
 url: "https://crqblog.github.io"
 ## 看版娘
-kanbanniang: false
 ## nav
 nav:
 - name: Home
   link: /
 - name: About
   link: /about
+## Theme
 theme: jekyll-theme-cayman
