@@ -2,7 +2,7 @@
 title: Clean Blog
 url: "https://crqblog.github.io"
 ## 看版娘
-kanbanniang: true
+kanbanniang: false
 ## nav
 nav:
 - name: Home
