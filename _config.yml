@@ -3,7 +3,9 @@ title: Clean Blog
 nav:
 - name: Home
   link: /
+  
   </br>
+  
 - name: About
   link: /about
 theme: jekyll-theme-cayman
