@@ -1,5 +1,7 @@
 # side settings
 title: Clean Blog
+url: "https://crqblog.github.io"
+## nav
 nav:
 - name: Home
   link: /
