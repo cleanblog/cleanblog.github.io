@@ -1,8 +1,8 @@
-// 导航
+
 <nav>
   {% for item in site.nav %}
     <a href="{{ item.link }}" 
-      {% if page.url == item.link %} style="color: red;" {% endif %}
+      {% if page.url == item.link %} style="color: black;" {% endif %}
     >
       {{ item.name }}
     </a>
