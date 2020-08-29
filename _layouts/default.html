@@ -29,3 +29,9 @@
   {% endfor %}
 </nav>
 
+<h1>Latest article</h1>
+{% for post in paginator.posts %}
+        <h2 style="font-family:verdana">
+            {{ post.title }}
+        </h2>
+{% endfor %}
