@@ -1,7 +1,7 @@
 # side settings
 ## title
 title: Clean Blog
-hometitle: Latest Articles
+hometitle: Articles   # 不可过长
 url: "https://crqblog.github.io"
 ## 看版娘
 ## nav
