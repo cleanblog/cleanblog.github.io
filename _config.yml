@@ -6,8 +6,6 @@ url: "https://crqblog.github.io"
 ## 组件
 navbarcolor: black ## 导航栏颜色设置，可以用16进制色或英文
 headcolor: LightSeaGreen ## 头部主题颜色设置，不可以用16进制色，只可以英文
-## 新页面
-yours: hi ## 页面标题，你可以自己创建类似这一行的语句，然后用liquid在页面中加入{{site.你定义的名称}}
 ## 看版娘
 ## nav
 nav:
