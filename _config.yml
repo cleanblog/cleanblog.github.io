@@ -6,6 +6,7 @@ url: "https://crqblog.github.io"
 ## usernames
 github_username: qbsz
 csdn_username: github_50270421
+bitbucket_username: qbsz
 ## 组件
 navbarcolor: black ## 导航栏颜色设置，可以用16进制色或英文
 headcolor: LightSeaGreen ## 头部主题颜色设置，不可以用16进制色，只可以英文
